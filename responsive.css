@@ -1,0 +1,50 @@
+@media  screen and (max-width:500px) {
+    #container{
+       margin-top: 20px;
+        width: 85%;
+        height: 500px;
+    }
+    #location input{
+        width: 200px;
+    }
+    #information img{
+        right: 20%;
+    }
+    #information ul{
+        bottom: 23%;
+    }
+    #information #temperature{
+        top: 100px;
+    }
+}
+@media  screen and (max-width:900px){
+    #information img{
+        top: 20px;
+        right: 20px;
+        height: 150px;
+        width: 150px;
+    }
+    #information #weatherCountry{
+        font-size: 2rem;
+    }
+    #information #temperature{
+        font-size: 1rem;
+    }
+    #information #weatherDescription{
+        font-size: 1rem;
+        top: 100px;
+    }
+    #information #back{
+        bottom: 50px;
+        right: 50px;
+    }
+}
+@media  screen and (max-width:700px){
+    #information img{
+        top: 30%;
+        right: 50%;
+        height: 100px;
+        width: 100px;
+    }
+   
+}
